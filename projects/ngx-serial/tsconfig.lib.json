@@ -6,8 +6,10 @@
     "target": "es2020",
     "declaration": true,
     "declarationMap": true,
+    "declarationDir": "./types",
     "inlineSources": true,
-    "types": [],
+    // "types": ["./src/typings/"],
+    "typeRoots": ["./src/typings/"],
     "lib": [
       "dom",
       "es2018"
